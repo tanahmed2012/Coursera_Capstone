@@ -1,1 +1,14 @@
-In 2013, 54 million people worldwide sustained injuries from traffic collisions.[1] This resulted in 1.4 million deaths in 2013, up from 1.1 million deaths in 1990.[2] About 68,000 of these occurred in children less than five years old.[2] Almost all high-income countries have decreasing death rates, while the majority of low-income countries have increasing death rates due to traffic collisions. Middle-income countries have the highest rate with 20 deaths per 100,000 inhabitants, accounting for 80% of all road fatalities with 52% of all vehicles. While the death rate in Africa is the highest
+Based on definition of our problem, factors that will influence our decision are:
+
+number of existing restaurants in the neighborhood (any type of restaurant)
+number of and distance to Italian restaurants in the neighborhood, if any
+distance of neighborhood from city center
+number of school in the neighborhood (any type of school)
+We decided to use regularly spaced grid of locations, centered around city center, to define our neighborhoods.
+
+Following data sources will be needed to extract/generate the required information:
+
+centers of candidate areas will be generated algorithmically and approximate addresses of centers of those areas will be obtained using Google Maps API reverse geocoding
+number of restaurants and their type and location in every neighborhood will be obtained using Foursquare API
+number of schools and their type and location in every neighborhood will be obtained using Foursquare API
+coordinate of New York center will be obtained using MapBox API of well known New York Queens location
