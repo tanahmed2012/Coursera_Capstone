@@ -1,22 +1,6 @@
-Introduction
-My friends is looking to open a restaurant, where would we recommend that they open it? So, we explore the different restaurant distribution in different city, New York City and Toronto.
+1. Introduction / Business Problem
+Background and Problem
+Each year about 1.25 million people die in road traffic accidents, and an additional 20-50 million are injured or disabled. If the locations of traffic accidents could be predicted, this could have a huge beneficial impact in potentially helping to reduce the number of accidents each year. For example, routing software could avoid the most dangerous areas - particularly in the context of the coming advent of driverless cars. It could also be useful in an insurance context, in order to predict risk, as well as for governments and local road authorities looking to create more efficient systems of road maintenance and improvements. The aim of this project is to predict where traffic accidents are likely to occur. Throughout this capstone project, multiple supervised machine learning algorithms will be explored. Then, conclusion will be made by selecting the machine learning model that provides the highest prediction accuracy.
 
-Business Problem
-In order to explore the restaurant information. We will have the need to use some information about the Localities in New York City And Toronto. We must be sure that the place where the restaurant joint is opened will have enough customers and also that there aren't a large amount of restaurant joints in the place. For this reason, we need to analyze different scenarios in the area to make sure that the restaurant will be successful in the area. We are going to try to avoid others restaurant Joint in the area and we are looking for a area where there are:
-
-different district school information
-restaurant information
-For this project we are mainly concerned with the area around two cities to setup a restaurant Joint to ensure maximum profitability for new business.
-
-Data
-To choose the restaurant, we will need to access following data:
-
-Neighbourhoods in New York And Toronto
-From the table above, we are going to extra the data to build our analysis.
-
-The coordinates (latitude, longitude) to these Localities of two cities from FourSquare APIs. And we are going to work with this type of maps to identify our venues locations:
-
-From Foursquare we will need following venues data:
-
-the school information
-different restaurant information We will then leverage the data in order to determine which locality is the most appropriate in order to locate the restaurant joint.
+Audience
+The primary audience of this study might include people who resides in Seattle, WA, and those that are interested in learning about collisions provided by SPD which are recorded by Traffic Records. The findings could also be used by Department of Transportation Traffic Management Division looking to open new methods of even a way of fostering and improving traffics within Seattle to improve safety.
