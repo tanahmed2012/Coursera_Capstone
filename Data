@@ -1,14 +1,4 @@
-Based on definition of our problem, factors that will influence our decision are:
+2. Data Description
+The data includes all types of collisions. Collisions will display at the intersection or mid-block of a segment during timeframe: 2004 to Present. SDOT GIS Seattle (Dataset and Metadata) provided the data set used in this study. It contains speed, light, condition of the road, severity, etc. for road accidents from 2004 to present. The intention is to use multiple machine learning methods to forecast the severity, consideing the various road conditions. The data to be used in the sample data collection provided is called "Data-Collisions.csv" will be used.
 
-number of existing restaurants in the neighborhood (any type of restaurant)
-number of and distance to Italian restaurants in the neighborhood, if any
-distance of neighborhood from city center
-number of school in the neighborhood (any type of school)
-We decided to use regularly spaced grid of locations, centered around city center, to define our neighborhoods.
-
-Following data sources will be needed to extract/generate the required information:
-
-centers of candidate areas will be generated algorithmically and approximate addresses of centers of those areas will be obtained using Google Maps API reverse geocoding
-number of restaurants and their type and location in every neighborhood will be obtained using Foursquare API
-number of schools and their type and location in every neighborhood will be obtained using Foursquare API
-coordinate of New York center will be obtained using MapBox API of well known New York Queens location
+The data we will be using for the project is from Seattle, Wasington, US, named as “Data-Collisions.csv” provided by-"SDOT GIS Analyst”. It has stored data from the year 2004-Present. It is a large dataset with dimension 193673 x 38 to work on. It has a special column showing the Severity of the collision which can be used for training and predicting the model.
