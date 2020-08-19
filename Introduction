@@ -1,3 +1,22 @@
-A traffic collision, also called a motor vehicle collision or car accident, occurs when a vehicle collides with another vehicle, pedestrian, animal, road debris, or other stationary obstruction, such as a tree, pole or building. Traffic collisions often result in injury, disability, death, and property damage as well as financial costs to both society and the individuals involved.
+Introduction
+My friends is looking to open a restaurant, where would we recommend that they open it? So, we explore the different restaurant distribution in different city, New York City and Toronto.
 
-A number of factors contribute to the risk of collisions, including vehicle design, speed of operation, road design, road environment, driving skills, impairment due to alcohol or drugs, and behavior, notably distracted driving, speeding and street racing.
+Business Problem
+In order to explore the restaurant information. We will have the need to use some information about the Localities in New York City And Toronto. We must be sure that the place where the restaurant joint is opened will have enough customers and also that there aren't a large amount of restaurant joints in the place. For this reason, we need to analyze different scenarios in the area to make sure that the restaurant will be successful in the area. We are going to try to avoid others restaurant Joint in the area and we are looking for a area where there are:
+
+different district school information
+restaurant information
+For this project we are mainly concerned with the area around two cities to setup a restaurant Joint to ensure maximum profitability for new business.
+
+Data
+To choose the restaurant, we will need to access following data:
+
+Neighbourhoods in New York And Toronto
+From the table above, we are going to extra the data to build our analysis.
+
+The coordinates (latitude, longitude) to these Localities of two cities from FourSquare APIs. And we are going to work with this type of maps to identify our venues locations:
+
+From Foursquare we will need following venues data:
+
+the school information
+different restaurant information We will then leverage the data in order to determine which locality is the most appropriate in order to locate the restaurant joint.
